@@ -28,9 +28,10 @@ function App() {
         week:<input type='week' name='date'/>
         <br></br>
         number:<input type='number' name='date' min ='10'/>
-        Range:<input type='Range' name='date' min ='10'/>
+        Range:<input type='Range' name='date' min ='10' max='150'/>
         <br></br>
       </fieldset>
+
     </div>
   );
 }
